@@ -1,18 +1,19 @@
 export default {
-    palette: {
-      primary: {
-        light: '#33c9dc',
-        main: '#00bcd4',
-        dark: '#008394',
-        contrastText: '#fff'
-      },
-      secondary: {
-        light: '#ff6333',
-        main: '#ff3d00',
-        dark: '#b22a00',
-        contrastText: '#fff'
-      }
+  palette: {
+    primary: {
+      light: '#33c9dc',
+      main: '#00bcd4',
+      dark: '#008394',
+      contrastText: '#fff'
     },
+    secondary: {
+      light: '#ff6333',
+      main: '#ff3d00',
+      dark: '#b22a00',
+      contrastText: '#fff'
+    }
+  },
+  commomStyles: {
     typography: {
       useNextVariants: true
     },
@@ -20,10 +21,11 @@ export default {
       textAlign: 'center'
     },
     image: {
-      margin: '20px auto 20px auto'
+      margin: '5px auto 5px auto',
+      maxWidth: '150px'
     },
     pageTitle: {
-      margin: '10px auto 10px auto'
+      margin: '5px auto 5px auto'
     },
     textField: {
       margin: '10px auto 10px auto'
@@ -94,4 +96,5 @@ export default {
         margin: '20px 10px'
       }
     }
-  };
+  }
+};
